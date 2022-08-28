@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'TimeTranslate'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EB5C6FDB688F427C8AFED4DCD65EE7B3 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6A4EB1E7A5C249CEAAFEFDDEFAE5EDEF }}
           package: .
