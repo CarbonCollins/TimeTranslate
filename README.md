@@ -20,3 +20,5 @@ for example &&28, AUG 2022 11:00:00 CST will return 1661706000 Send a message li
 !hello - A bit of fun
 
 !dm - Direct message Time Translate
+
+Developed by Brent Wesley brent@welsey.email  License GPL
