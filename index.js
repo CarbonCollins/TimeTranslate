@@ -47,7 +47,8 @@ client.on('messageCreate', async msg => {
   //Help prompt
   if(msg.content.startsWith("!tthelp")) {
         let messageContent = msg.content.replace("!tthelp", 'Use %%DD, MM YYYY HH:MM:SS TZ to receive your local time from a specified time in another timezone\n E.G. %%28, AUG 2022 11:00:00 CST' + '\n\n' +
-                                                  'Use &&DD, MM YYYY HH:MM:SS TZ to recieve to specified dat/time as Unix Epoch time. Use this number with <t:epoch> in a message to automatically send a time/date that translate to the recipients local time');
+                                                  'Use &&DD, MM YYYY HH:MM:SS TZ to recieve to specified dat/time as Unix Epoch time. Use this number with <t:epoch> in a message to automatically send a time/date that translate to the recipients local time' + '\n' +
+                                                  'For example `<t:1661706000>`');
         msg.member.send(messageContent);
   }
 
