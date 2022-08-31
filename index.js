@@ -36,7 +36,8 @@ client.on('messageCreate', async msg => {
 	  let msgContent = msg.content;
 	  msgContent = msgContent.replace('%%', '');
 	  let epoch=Date.parse(msgContent);
-	  msg.channel.send('`<t:' + epoch.toString().slice(0,10) + '>`');
+	  //msg.channel.send('`<t:' + epoch.toString().slice(0,10) + '>`');
+    msg.member.send('`<t:' + epoch.toString().slice(0,10) + '>`');
   }  
 
   //future use
