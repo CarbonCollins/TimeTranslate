@@ -4,7 +4,6 @@
   "description": "Time Translate Discord Bot",
   "main": "index.js",
   "scripts": {
-    "test": "mocha spec",
     "start": "node index.js"
   },
   "author": "Brent Wesley",
